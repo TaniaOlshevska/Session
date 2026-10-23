@@ -1,0 +1,50 @@
+
+Acer@DESKTOP-2CHVI0N MINGW64 /d/homeworksweb/2310/Session (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Acer@DESKTOP-2CHVI0N MINGW64 /d/homeworksweb/2310/Session (main)
+$ git branch
+* main
+  new-branch
+
+Acer@DESKTOP-2CHVI0N MINGW64 /d/homeworksweb/2310/Session (main)
+$ git log
+commit f49b0d9460daec6953cf62a8f77178af230927a5 (HEAD -> main, origin/main, origin/HEAD)
+Author: TaniaOlshevska <tania107200@gmail.com>
+Date:   Fri Oct 23 09:52:53 2026 +0300
+
+    Create new style.css file
+
+commit 117ebcd7b628008ad0562fcf489c9e07eef5ed41
+Merge: 739087a 0882503
+Author: Ольшевська Тетяна <tania10720097@gmail.com>
+Date:   Fri Oct 23 09:51:04 2026 +0300
+
+    Вирішили конфлікт
+
+commit 739087a454f1a03ff3aefa2a8f517f25eef42d20
+Author: Ольшевська Тетяна <tania10720097@gmail.com>
+Date:   Fri Oct 23 09:49:06 2026 +0300
+
+    Внесено зміни в index.html, додана нова стрічка new file
+
+commit 0882503caf009e7c5ddd6fa3181e90af9569e229 (origin/new-branch, new-branch)
+Author: Ольшевська Тетяна <tania10720097@gmail.com>
+Date:   Fri Oct 23 09:43:23 2026 +0300
+
+    Додано стрічку i'm tania до index.html
+
+commit 6f421c03afb58af41706950fb0b5787785d47325
+
+Acer@DESKTOP-2CHVI0N MINGW64 /d/homeworksweb/2310/Session (main)
+$ git log --merges
+commit 117ebcd7b628008ad0562fcf489c9e07eef5ed41
+Merge: 739087a 0882503
+Author: Ольшевська Тетяна <tania10720097@gmail.com>
+Date:   Fri Oct 23 09:51:04 2026 +0300
+
+    Вирішили конфлікт
